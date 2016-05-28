@@ -20,40 +20,30 @@
 </head>
 <body>
 <!-- menu -->
-<nav class="green" role="navigation">
+<nav class="blue-grey" role="navigation">
   <div class="nav-wrapper" style="margin-left:20px"> <a id="logo-container" href="index.php" class="brand-logo"><span class="z-depth-5">SmartHotel360</span></a>
     <ul class="right hide-on-med-and-down">
       <li><a href="index.php"><b class="z-depth-3">TRANG CHỦ</b></a></li>
-      <li><a href="ZKS_smart@hotel/banggia.php"><b class="z-depth-3">BẢNG GIÁ</b></a></li>
-      <li><a href="ZKS_smart@hotel/gioithieu.php"><b class="z-depth-3">GIỚI THIỆU</b></a></li>
+      <li><a href="smarthotel/banggia.php"><b class="z-depth-3">BẢNG GIÁ</b></a></li>
+      <li><a href="smarthotel/gioithieu.php"><b class="z-depth-3">GIỚI THIỆU</b></a></li>
       <li>
-      <?php 
+	  <?php 
 		if(!isset($_SESSION['currEmail'])){
 		?>
-      <a href="login.php"><b class="z-depth-3">ĐĂNG NHẬP</b></a>
+        <a href="login.php"><b class="z-depth-3">ĐĂNG NHẬP</b></a>
       <?php 
 		} else {
-			echo "<a href='ZKS_".$_SESSION['currEmail']."'><b class='z-depth-3'>VÀO KHÁCH SẠN</b></a>";
+			echo "<p class='z-depth-3 white-text'>Xin chào! ".$_SESSION['currEmail']."</p>";
 			}
-	  	?> 
-      </li>
-      <li>
-      <?php 
-		if(!isset($_SESSION['currEmail'])){
-		?>
-      <a href="dangky.php"><b class="z-depth-3">ĐĂNG KÝ</b></a>
-      <?php 
-		} else {
-			echo "<a href='logout.php'><b class='z-depth-3'>THOÁT</b></a>";
-			}
-	  	?>
-      </li>
+	  	?>  
+        </li>
+      <li><a href="dangky.php"><b class="z-depth-3">ĐĂNG KÝ</b></a></li>
       <li><strong class="yellow-text" style="margin-right:10px"><b class="z-depth-3">0946 830 620<i class="material-icons left">call</i></b></strong></li>
     </ul>
-    <ul id="nav-mobile" class="side-nav green">
+    <ul id="nav-mobile" class="side-nav blue-grey">
       <li><a href="index.php" class="white-text"><b class="z-depth-3">TRANG CHỦ</b></a></li>
-      <li><a href="ZKS_smart@hotel/banggia.php" class="white-text"><b class="z-depth-3">BẢNG GIÁ</b></a></li>
-      <li><a href="ZKS_smart@hotel/gioithieu.php" class="white-text"><b class="z-depth-3">GIỚI THIỆU</b></a></li>
+      <li><a href="smarthotel/banggia.php" class="white-text"><b class="z-depth-3">BẢNG GIÁ</b></a></li>
+      <li><a href="smarthotel/gioithieu.php" class="white-text"><b class="z-depth-3">GIỚI THIỆU</b></a></li>
       <li><a href="login.php" class="white-text"><b class="z-depth-3">ĐĂNG NHẬP</b></a></li>
       <li><a href="dangky.php" class="white-text"><b class="z-depth-3">ĐĂNG KÝ</b></a></li>
     </ul>
@@ -64,7 +54,7 @@
 <div class="container" style="margin-top:100px; margin-bottom:100px;">
   <form class="col s12" method="post" action="">
     <div class="row">
-      <h4 class="green-text z-depth-3 center-align">FORM ĐĂNG NHẬP</h4>
+      <h4 class="blue-grey-text z-depth-3 center-align">FORM ĐĂNG NHẬP</h4>
     </div>
     <div class="input-field col s6"> <i class="material-icons prefix">person_pin</i>
       <input id="icon_prefix" type="email" class="validate" name="email">
@@ -82,7 +72,7 @@
 
 <!-- Phần cuối -->
 
-<footer class="page-footer green">
+<footer class="page-footer blue-grey">
   <div>
     <div class="row">
       <div class="col l6 s12">

@@ -56,38 +56,18 @@ if(isset($_POST['dangky'])){ dangKy();}
   <div class="nav-wrapper" style="margin-left:20px"> <a id="logo-container" href="index.php" class="brand-logo"><span class="z-depth-5">SmartHotel360</span></a>
     <ul class="right hide-on-med-and-down">
       <li><a href="index.php"><b class="z-depth-3">TRANG CHỦ</b></a></li>
-      <li><a href="ZKS_smart@hotel/banggia.php"><b class="z-depth-3">BẢNG GIÁ</b></a></li>
-      <li><a href="ZKS_smart@hotel/gioithieu.php"><b class="z-depth-3">GIỚI THIỆU</b></a></li>
-      <li>
-      <?php 
-		if(!isset($_SESSION['currEmail'])){
-		?>
-      <a href="login.php"><b class="z-depth-3">ĐĂNG NHẬP</b></a>
-      <?php 
-		} else {
-			echo "<a href='ZKS_".$_SESSION['currEmail']."'><b class='z-depth-3'>VÀO KHÁCH SẠN</b></a>";
-			}
-	  	?> 
-      </li>
-      <li>
-      <?php 
-		if(!isset($_SESSION['currEmail'])){
-		?>
-      <a href="dangky.php"><b class="z-depth-3">ĐĂNG KÝ</b></a>
-      <?php 
-		} else {
-			echo "<a href='logout.php'><b class='z-depth-3'>THOÁT</b></a>";
-			}
-	  	?>
-      </li>
-      <li><strong class="yellow-text" style="margin-right:10px"><b class="z-depth-3">0946 830 620<i class="material-icons left">call</i></b></strong></li>
+      <li><a href="smarthotel/banggia.php"><b class="z-depth-3">BẢNG GIÁ</b></a></li>
+      <li><a href="smarthotel/gioithieu.php"><b class="z-depth-3">GIỚI THIỆU</b></a></li>
+      <li><a href="login.php"><b class="z-depth-3">ĐĂNG NHẬP</b></a></li>
+      <li><a href="dangky.php"><b class="z-depth-3">ĐĂNG KÝ</b></a></li>
+      <li><strong class="yellow-text light" style="margin-right:10px"><b class="z-depth-3">0946 830 620<i class="material-icons left">call</i></b></strong></li>
     </ul>
     <ul id="nav-mobile" class="side-nav green">
       <li><a href="index.php" class="white-text"><b class="z-depth-3">TRANG CHỦ</b></a></li>
-      <li><a href="ZKS_smart@hotel/banggia.php" class="white-text"><b class="z-depth-3">BẢNG GIÁ</b></a></li>
+      <li><a href="smarthotel/banggia.php" class="white-text"><b class="z-depth-3">BẢNG GIÁ</b></a></li>
       <li><a href="gioithieu.php" class="white-text"><b class="z-depth-3">GIỚI THIỆU</b></a></li>
       <li><a href="login.php" class="white-text"><b class="z-depth-3">ĐĂNG NHẬP</b></a></li>
-      <li><a href="dangky.php" class="white-text"><b class="z-depth-3">ĐĂNG KÝ</b></a></li>
+      <li><a href="#" class="white-text"><b class="z-depth-3">ĐĂNG KÝ</b></a></li>
     </ul>
     <a href="#" data-activates="nav-mobile" class="button-collapse white-text"><i class="material-icons">menu</i></a> </div>
 </nav>
@@ -141,7 +121,7 @@ if(isset($_POST['dangky'])){ dangKy();}
       <div class="col l3 s12">
         <h5 class="white-text center-align"><b class="z-depth-3">CÔNG TY I2C CORP</b></h5>
         <p class="grey-text text-lighten-4 z-depth-3">Chúng tôi là một đội ngũ chuyên phát triển ứng dụng phần mềm quản lý khách sạn Online. SmartHotel360 là sản phẩm tốt nhất trong quản lý khách sạn hiện nay. Chúng tôi có niềm đam mê về những gì chúng tôi làm, và lý do tại sao chúng tôi làm điều đó.</p>
-        <p class="grey-text text-lighten-4"><a class="orange-text" href="ZKS_smart@hotel/gioithieu.php">
+        <p class="grey-text text-lighten-4"><a class="orange-text" href="smarthotel/gioithieu.php">
           <button class="btn z-depth-3">Chi tiết ...</button>
           </a></p>
       </div>

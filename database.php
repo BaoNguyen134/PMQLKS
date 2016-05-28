@@ -19,7 +19,7 @@
 			
 			if($row['role']==1&&$row['kichhoat']==1){
 				$_SESSION['currAdmin']=$row['role'];
-				header("location:".$admin_user);
+				header("location:smarthotel/admin.php");
 			}
 			else if($row['role']==2&&$row['kichhoat']==1){
 				header("location:".$admin_user);
