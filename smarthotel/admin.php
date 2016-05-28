@@ -29,7 +29,7 @@
 </head>
 <body>
 <!-- menu -->
-<nav class="orange" role="navigation">
+<nav class="green" role="navigation">
   <div class="nav-wrapper" style="margin-left:20px"> <a id="logo-container" href="../index.php" class="brand-logo"><span class="z-depth-5">SmartHotel360</span></a>
     <ul class="right hide-on-med-and-down">
       <li><a href="#"><b class="z-depth-3">QUẢN LÝ KHÁCH HÀNG</b></a></li>
@@ -88,7 +88,7 @@
   <table class="highlight z-depth-3" style="width:100%;">
     <tr>
       <th><span class="blue-grey-text">ROLE</span></th>
-      <th><span class="blue-grey-text">TT KÍCH HOẠT</span></th>
+      <th><span class="blue-grey-text">KÍCH HOẠT</span></th>
       <th><span class="blue-grey-text">HỌ TÊN</span></th>
       <th><span class="blue-grey-text">ĐIỆN THOẠI</span></th>
       <th><span class="blue-grey-text">EMAIL</span></th>
@@ -134,8 +134,8 @@ $email=$_POST['email'];
 				  <th>".$row['ten_khach_san']."</th>
 				  <th>".$row['dia_chi']."</th>
 				  <th>".$row['so_luong_phong']."</th>
-				  <th><a id='".$row['email']."' onclick='sua(this)' class='login-window btn' href=#update>SỬA</a></th>
-				  <th><a href=admin_xoa.php?id=".$row['email']." class='btn btn-danger'>XÓA</a></th>
+				  <th><a id='".$row['email']."' onclick='sua(this)' class='login-window btn orange' href=#update>SỬA</a></th>
+				  <th><a onclick='return xoa(this)' href=admin_xoa.php?id=".$row['email']." class='btn red'>XÓA</a></th>
 				</tr>
 				";
 				$hv[]=$row;
@@ -146,6 +146,11 @@ $email=$_POST['email'];
   </table>
 </div>
 </div>
+<script>
+	function xoa(e){
+		return confirm("BẠN CHẮC CHẮN MUỐN XÓA?");
+	}
+</script>
 <script>
  var hv=<?php echo json_encode($hv);?>;
  function sua(e){
