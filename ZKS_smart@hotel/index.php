@@ -32,7 +32,7 @@
 <nav class="green" role="navigation">
   <div class="nav-wrapper" style="margin-left:20px"> <a id="logo-container" href="../index.php" class="brand-logo"><span class="z-depth-5">SmartHotel360</span></a>
     <ul class="right hide-on-med-and-down">
-      <li><a href="#"><b class="z-depth-3">QUẢN LÝ KHÁCH HÀNG</b></a></li>
+      <li><a href="index.php"><b class="z-depth-3">CẬP NHẬT DANH SÁCH</b></a></li>
       <li>
         <?php 
 		if(!isset($_SESSION['currEmail'])){
@@ -57,7 +57,7 @@
       </li>
     </ul>
     <ul id="nav-mobile" class="side-nav orange">
-      <li><a href="#"><b class="z-depth-3  white-text">QUẢN LÝ KHÁCH HÀNG</b></a></li>
+      <li><a href="index.php"><b class="z-depth-3  white-text">CẬP NHẬT DANH SÁCH</b></a></li>
       <?php 
 		if(!isset($_SESSION['currEmail'])){
 		?>
@@ -84,17 +84,17 @@
 </nav>
 <!-- end menu -->
 <div align="center" style="margin-bottom: 50px">
-  <h5 class="blue-grey-text"><b class="z-depth-3">DANH SÁCH KHÁCH HÀNG</b></h5>
+  <h5 class="green-text"><b class="z-depth-3">DANH SÁCH KHÁCH HÀNG</b></h5>
   <table class="highlight z-depth-3" style="width:100%;">
     <tr>
-      <th><span class="blue-grey-text">ROLE</span></th>
-      <th><span class="blue-grey-text">KÍCH HOẠT</span></th>
-      <th><span class="blue-grey-text">HỌ TÊN</span></th>
-      <th><span class="blue-grey-text">ĐIỆN THOẠI</span></th>
-      <th><span class="blue-grey-text">EMAIL</span></th>
-      <th><span class="blue-grey-text">TÊN KHÁCH SẠN</span></th>
-      <th><span class="blue-grey-text">ĐỊA CHỈ</span></th>
-      <th><span class="blue-grey-text">SỐ LƯỢNG PHÒNG</span></th>
+      <th><span class="green-text">ROLE</span></th>
+      <th><span class="green-text">KÍCH HOẠT</span></th>
+      <th><span class="green-text">HỌ TÊN</span></th>
+      <th><span class="green-text">ĐIỆN THOẠI</span></th>
+      <th><span class="green-text">EMAIL</span></th>
+      <th><span class="green-text">TÊN KHÁCH SẠN</span></th>
+      <th><span class="green-text">ĐỊA CHỈ</span></th>
+      <th><span class="green-text">SỐ LƯỢNG PHÒNG</span></th>
       <th></th>
       <th></th>
     </tr>
@@ -125,7 +125,7 @@ $email=$_POST['email'];
 			while($row=mysql_fetch_array($query)){
 				echo 
 				"
-				<tr class='blue-grey-text'>
+				<tr class='green-text'>
 				  <th>".$row['role']."</th>
 				  <th>".$row['kichhoat']."</th>
 				  <th>".$row['ho_ten']."</th>
@@ -193,13 +193,13 @@ $(document).ready(function() {
   <p class="login_title" style="font-size:22px">THAY ĐỔI TRẠNG THÁI KÍCH HOẠT</p>
   <a href="#" class="close"><img src="close.png" class="img-close" title="Close Window" alt="Close" /></a>
   <form method="post" class="login-content" action="#">
-    <label><span class="blue-grey-text"><b style="font-size:18px">EMAIL</b></span>
-      <input class="blue-grey-text" id="email" name="email" value="" type="email" readonly>
+    <label><span class="green-text"><b style="font-size:18px">EMAIL</b></span>
+      <input class="green-text" id="email" name="email" value="" type="email" readonly>
     </label>
-    <label><span class="blue-grey-text"><b style="font-size:18px">KÍCH HOẠT</b></span>
+    <label><span class="green-text"><b style="font-size:18px">KÍCH HOẠT</b></span>
       <input id="tt"  name="tt" value="" type="text">
     </label>
-    <label><span class="blue-grey-text"><b style="font-size:18px">ROLE</b></span>
+    <label><span class="green-text"><b style="font-size:18px">ROLE</b></span>
       <input id="role"  name="role" value="" type="text">
     </label>
     <button  align="center" class="btn submit-button" type="submit" name="update"><b>CẬP NHẬT</b></button>
