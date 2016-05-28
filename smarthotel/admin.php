@@ -86,7 +86,7 @@
 <div align="center" style="margin-bottom: 50px">
   <h5 class="blue-grey-text"><b class="z-depth-3">DANH SÁCH KHÁCH HÀNG</b></h5>
   <table class="highlight z-depth-3" style="width:100%;">
-    <tr >
+    <tr>
       <th><span class="blue-grey-text">ROLE</span></th>
       <th><span class="blue-grey-text">TT KÍCH HOẠT</span></th>
       <th><span class="blue-grey-text">HỌ TÊN</span></th>
@@ -95,6 +95,8 @@
       <th><span class="blue-grey-text">TÊN KHÁCH SẠN</span></th>
       <th><span class="blue-grey-text">ĐỊA CHỈ</span></th>
       <th><span class="blue-grey-text">SỐ LƯỢNG PHÒNG</span></th>
+      <th></th>
+      <th></th>
     </tr>
     <?php 
 		$conn = connectDatabase();
@@ -125,15 +127,15 @@ $email=$_POST['email'];
 				"
 				<tr class='blue-grey-text'>
 				  <th>".$row['role']."</th>
-				  <td>".$row['kichhoat']."</td>
-				  <td>".$row['ho_ten']."</td>
-				  <td>".$row['dien_thoai']."</td>
-				  <td>".$row['email']."</td>
-				  <td>".$row['ten_khach_san']."</td>
-				  <td>".$row['dia_chi']."</td>
-				  <td>".$row['so_luong_phong']."</td>
-				  <td><a id='".$row['email']."' onclick='sua(this)' class='login-window btn' href=#update>Cập Nhật</a></td>
-				  <td><a href=admin_xoa.php?id=".$row['email']." class='btn btn-danger'>Xóa</a></td>
+				  <th>".$row['kichhoat']."</th>
+				  <th>".$row['ho_ten']."</th>
+				  <th>".$row['dien_thoai']."</th>
+				  <th>".$row['email']."</th>
+				  <th>".$row['ten_khach_san']."</th>
+				  <th>".$row['dia_chi']."</th>
+				  <th>".$row['so_luong_phong']."</th>
+				  <th><a id='".$row['email']."' onclick='sua(this)' class='login-window btn' href=#update>SỬA</a></th>
+				  <th><a href=admin_xoa.php?id=".$row['email']." class='btn btn-danger'>XÓA</a></th>
 				</tr>
 				";
 				$hv[]=$row;
