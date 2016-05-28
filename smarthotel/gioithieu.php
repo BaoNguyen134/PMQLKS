@@ -13,7 +13,7 @@
 </head>
 <body>
 <!-- menu -->
-<nav class="blue-grey" role="navigation">
+<nav class="green" role="navigation">
   <div class="nav-wrapper" style="margin-left:20px"> <a id="logo-container" href="../index.php" class="brand-logo"><span class="z-depth-5">SmartHotel360</span></a>
     <ul class="right hide-on-med-and-down">
       <li><a href="../index.php"><b class="z-depth-3">TRANG CHỦ</b></a></li>
@@ -43,7 +43,7 @@
       </li>
       <li><strong class="yellow-text" style="margin-right:10px"><b class="z-depth-3">0946 830 620<i class="material-icons left">call</i></b></strong></li>
     </ul>
-    <ul id="nav-mobile" class="side-nav blue-grey">
+    <ul id="nav-mobile" class="side-nav green">
       <li><a href="../index.php" class="white-text"><b class="z-depth-3">TRANG CHỦ</b></a></li>
       <li><a href="banggia.php" class="white-text"><b class="z-depth-3">BẢNG GIÁ</b></a></li>
       <li><a href="gioithieu.php" class="white-text"><b class="z-depth-3">GIỚI THIỆU</b></a></li>
@@ -77,33 +77,33 @@
 <div class="row">
   <div class="col s12 center">
     <h3><i class="mdi-content-send brown-text"></i></h3>
-    <h4><b class="blue-grey-text z-depth-3">VỀ CÔNG TY I2C CORP</b></h4>
+    <h4><b class="green-text z-depth-3">VỀ CÔNG TY I2C CORP</b></h4>
   </div>
 </div>
 <div class="row">
   <div class="col s12 m3">
-    <div class="card blue-grey darken-1 hoverable" style="height:300px">
+    <div class="card green darken-1 hoverable" style="height:300px">
       <div class="card-content white-text"> <span class="card-title z-depth-3">MỌI LÚC-MỌI NƠI</span>
         <p class="white-text z-depth-3">I2C chỉ phát triển các sản phẩm quản lý chạy trên nền Internet, không cần cài đặt, sử dụng mọi lúc mọi nơi. Đây cũng là xu thế chung của nền công nghiệp phần mềm trên thế giới hiện nay . </p>
       </div>
     </div>
   </div>
   <div class="col s12 m3">
-    <div class="card blue-grey darken-1 hoverable" style="height:300px">
+    <div class="card green darken-1 hoverable" style="height:300px">
       <div class="card-content white-text"> <span class="card-title z-depth-3">ĐIỆN TOÁN ĐÁM MÂY</span>
         <p class="white-text z-depth-3">Đưa công nghệ điện toán đám mây vào các sản phẩm của I2C, tiêu biểu là SmartHotel360 Manager, chúng tôi đảm bảo chi phí sử dụng thấp nhất, cũng như độ ổn định cao nhất, cam kết uptime trên 99%.</p>
       </div>
     </div>
   </div>
   <div class="col s12 m3">
-    <div class="card blue-grey darken-1 hoverable" style="height:300px">
+    <div class="card green darken-1 hoverable" style="height:300px">
       <div class="card-content white-text"> <span class="card-title z-depth-3">LUÔN ĐỔI MỚI</span>
         <p class="white-text z-depth-3">Chúng tôi có niềm đam mê  vào những gì chúng tôi làm, chính vì vậy những sản phẩm của I2C luôn được cập nhật tính năng mới, nhanh hơn, mạnh mẽ hơn... và sẽ luôn luôn như vậy.</p>
       </div>
     </div>
   </div>
   <div class="col s12 m3">
-    <div class="card blue-grey darken-1 hoverable" style="height:300px">
+    <div class="card green darken-1 hoverable" style="height:300px">
       <div class="card-content white-text"> <span class="card-title z-depth-3">HỖ TRỢ</span>
         <p class="white-text z-depth-3">
         Kinh doanh/Khách hàng<br>
@@ -117,7 +117,7 @@
 </div>
 <div class="row">
   <div class="col s12 m12">
-    <div class="card blue-grey darken-1 hoverable">
+    <div class="card green darken-1 hoverable">
       <div class="card-content white-text"> <span class="card-title z-depth-3">CÔNG TY</span>
         <p class="white-text z-depth-3">Về Công ty:
           Công ty I2C được thành lập vào ngày 19/03/2012. Sau gần 4 năm phát triển, mặc dù gặp không ít những khó khăn, thách thức nhưng với niềm đam mê bất tận, không ngại khó khăn, luôn luôn giữ vững cốt lõi đã đặt ra, Công ty I2C đã có bước tiến vững chắc và đang giữ vị thế hàng đầu trong lĩnh vực ứng dụng công nghệ thông tin trong Phần mềm quản lý Khách sạn Smarthotel360 – hiện đại, chuyên nghiệp, chống thất thoát, tăng doanh thu.
@@ -128,7 +128,7 @@
 </div>
 <div class="row">
   <div class="col s12 m12">
-    <div class="card blue-grey darken-1  z-depth-3">
+    <div class="card green darken-1  z-depth-3">
       <div class="card-content white-text"> <span class="card-title z-depth-3">ĐIỀU KHOẢN SỬ DỤNG</span>
         <p class="white-text">Cảm ơn bạn đã sử dụng các sản phẩm và dịch vụ Phần mềm Quản lý Khách sạn Smarthotel360 của chúng tôi. Dịch vụ được cung cấp bởi Công ty TNHH I2C. Bằng việc sử dụng Dịch vụ của chúng tôi, bạn đang đồng ý với các điều khoản chính sách của I2C nhằm mục đích mang lại chất lượng dịch vụ tốt nhất cho Khách hàng cũng như bảo vệ quyền lợi của chính Khách hàng.<br>
         <p class="white-text"><span class="card-title z-depth-3">1.Điều khoản sử dụng</span></p>
@@ -157,7 +157,7 @@ I2C khuyến cáo Bạn chỉ gửi thông tin Tài khoản nhằm mục đích 
 
 <!-- Phần cuối -->
 
-<footer class="page-footer blue-grey">
+<footer class="page-footer green">
   <div>
     <div class="row">
       <div class="col l3 s12">

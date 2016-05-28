@@ -52,7 +52,7 @@ if(isset($_POST['dangky'])){ dangKy();}
 </head>
 <body>
 <!-- menu -->
-<nav class="blue-grey" role="navigation">
+<nav class="green" role="navigation">
   <div class="nav-wrapper" style="margin-left:20px"> <a id="logo-container" href="index.php" class="brand-logo"><span class="z-depth-5">SmartHotel360</span></a>
     <ul class="right hide-on-med-and-down">
       <li><a href="index.php"><b class="z-depth-3">TRANG CHỦ</b></a></li>
@@ -60,9 +60,9 @@ if(isset($_POST['dangky'])){ dangKy();}
       <li><a href="smarthotel/gioithieu.php"><b class="z-depth-3">GIỚI THIỆU</b></a></li>
       <li><a href="login.php"><b class="z-depth-3">ĐĂNG NHẬP</b></a></li>
       <li><a href="dangky.php"><b class="z-depth-3">ĐĂNG KÝ</b></a></li>
-      <li><strong class="yellow-text" style="margin-right:10px"><b class="z-depth-3">0946 830 620<i class="material-icons left">call</i></b></strong></li>
+      <li><strong class="yellow-text light" style="margin-right:10px"><b class="z-depth-3">0946 830 620<i class="material-icons left">call</i></b></strong></li>
     </ul>
-    <ul id="nav-mobile" class="side-nav blue-grey">
+    <ul id="nav-mobile" class="side-nav green">
       <li><a href="index.php" class="white-text"><b class="z-depth-3">TRANG CHỦ</b></a></li>
       <li><a href="smarthotel/banggia.php" class="white-text"><b class="z-depth-3">BẢNG GIÁ</b></a></li>
       <li><a href="gioithieu.php" class="white-text"><b class="z-depth-3">GIỚI THIỆU</b></a></li>
@@ -76,34 +76,34 @@ if(isset($_POST['dangky'])){ dangKy();}
   <div class="col s6 m3">
     <form method="post" action="">
       <div class="row">
-        <h4 class="blue-grey-text z-depth-3 center-align">ĐĂNG KÝ PHẦN MỀM</h4>
+        <h4 class="green-text z-depth-3 center-align">ĐĂNG KÝ PHẦN MỀM</h4>
       </div>
       <div class="input-field col s6"> <i class="material-icons prefix">person_pin</i>
-        <label class="blue-grey-text">HỌ VÀ TÊN</label>
+        <label class="green-text">HỌ VÀ TÊN</label>
         <input id="icon_prefix" type="text" class="validate" name="ho_ten" id="ho_ten">
       </div>
       <div class="input-field col s6"> <i class="material-icons prefix">phone</i>
-        <label class="blue-grey-text">SỐ ĐIỆN THOẠI</label>
+        <label class="green-text">SỐ ĐIỆN THOẠI</label>
         <input type="text" name="dien_thoai" id="dien_thoai">
       </div>
       <div class="input-field col s6"> <i class="material-icons prefix">email</i>
-        <label class="blue-grey-text">ĐỊA CHỈ EMAIL</label>
+        <label class="green-text">ĐỊA CHỈ EMAIL</label>
         <input type="text" name="email" id="email">
       </div>
       <div class="input-field col s6"> <i class="material-icons prefix">lock</i>
-        <label class="blue-grey-text">ĐẶT MẬT KHẨU</label>
+        <label class="green-text">ĐẶT MẬT KHẨU</label>
         <input type="password" name="mat_khau" id="mat_khau">
       </div>
       <div class="input-field col s6"> <i class="material-icons prefix">business</i>
-        <label class="blue-grey-text">TÊN KHÁCH SẠN?</label>
+        <label class="green-text">TÊN KHÁCH SẠN?</label>
         <input type="text" name="ten_khach_san" id="ten_khach_san">
       </div>
       <div class="input-field col s6"> <i class="material-icons prefix">location_on</i>
-        <label class="blue-grey-text">ĐỊA CHỈ KHÁCH SẠN?</label>
+        <label class="green-text">ĐỊA CHỈ KHÁCH SẠN?</label>
         <input type="text" name="dia_chi" id="dia_chi">
       </div>
       <div class="input-field col s6"> <i class="material-icons prefix">account_balance</i>
-        <label class="blue-grey-text">SỐ LƯỢNG PHÒNG?</label>
+        <label class="green-text">SỐ LƯỢNG PHÒNG?</label>
         <input type="text" name="so_luong_phong" id="so_luong_phong">
       </div>
       <div align="center">
@@ -115,7 +115,7 @@ if(isset($_POST['dangky'])){ dangKy();}
 
 <!-- Phần cuối -->
 
-<footer class="page-footer blue-grey">
+<footer class="page-footer green">
   <div>
     <div class="row">
       <div class="col l3 s12">

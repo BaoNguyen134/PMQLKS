@@ -13,7 +13,7 @@
 </head>
 <body>
 <!-- menu -->
-<nav class="blue-grey" role="navigation">
+<nav class="green" role="navigation">
   <div class="nav-wrapper" style="margin-left:20px"> <a id="logo-container" href="../index.php" class="brand-logo"><span class="z-depth-5">SmartHotel360</span></a>
     <ul class="right hide-on-med-and-down">
       <li><a href="../index.php"><b class="z-depth-3">TRANG CHỦ</b></a></li>
@@ -43,7 +43,7 @@
       </li>
       <li><strong class="yellow-text" style="margin-right:10px"><b class="z-depth-3">0946 830 620<i class="material-icons left">call</i></b></strong></li>
     </ul>
-    <ul id="nav-mobile" class="side-nav blue-grey">
+    <ul id="nav-mobile" class="side-nav green">
       <li><a href="../index.php" class="white-text"><b class="z-depth-3">TRANG CHỦ</b></a></li>
       <li><a href="banggia.php" class="white-text"><b class="z-depth-3">BẢNG GIÁ</b></a></li>
       <li><a href="gioithieu.php" class="white-text"><b class="z-depth-3">GIỚI THIỆU</b></a></li>
@@ -75,22 +75,22 @@
 <!-- end menu -->
 
 <div align="center" class="container" style="margin-bottom: 50px">
-  <h5 class="blue-grey-text"><b class="z-depth-3">BẢNG GIÁ SỬ DỤNG PHẦN MỀM THEO THỜI GIAN</b></h5>
+  <h5 class="green-text"><b class="z-depth-3">BẢNG GIÁ SỬ DỤNG PHẦN MỀM THEO THỜI GIAN</b></h5>
   <div style="overflow:auto;margin-right:25px;boder-right:none">
    <table style="width:100%;background:#ECECEC;">
     <tr >
-      <th style="width:76px;height:96px;"><span class="blue-grey-text">SỐ PHÒNG</span></th>
-      <th style="width:76px;height:96px"><span class="blue-grey-text">3 THÁNG</span></th>
-      <th style="width:76px;height:96px"><span class="blue-grey-text">3 THÁNG<br>
+      <th style="width:76px;height:96px;"><span class="green-text">SỐ PHÒNG</span></th>
+      <th style="width:76px;height:96px"><span class="green-text">3 THÁNG</span></th>
+      <th style="width:76px;height:96px"><span class="green-text">3 THÁNG<br>
         (WEB)</span></th>
-      <th style="width:76px;height:96px"><span class="blue-grey-text">6 THÁNG</span></th>
-      <th style="width:76px;height:96px"><span class="blue-grey-text">6 THÁNG<br>
+      <th style="width:76px;height:96px"><span class="green-text">6 THÁNG</span></th>
+      <th style="width:76px;height:96px"><span class="green-text">6 THÁNG<br>
         (WEB)</span></th>
-      <th style="width:76px;height:96px"><span class="blue-grey-text">1 NĂM</span></th>
-      <th style="width:76px;height:96px"><span class="blue-grey-text">1 NĂM<br>
+      <th style="width:76px;height:96px"><span class="green-text">1 NĂM</span></th>
+      <th style="width:76px;height:96px"><span class="green-text">1 NĂM<br>
         (WEB)</span></th>
-      <th style="width:76px;height:96px"><span class="blue-grey-text">2 NĂM</span></th>
-      <th style="width:76px;height:96px"><span class="blue-grey-text">2 NĂM<br>
+      <th style="width:76px;height:96px"><span class="green-text">2 NĂM</span></th>
+      <th style="width:76px;height:96px"><span class="green-text">2 NĂM<br>
         (WEB)</span></th>
     </tr>
    </table>
@@ -109,7 +109,7 @@
 			
 			while($row=mysql_fetch_array($query)){
 				echo"
-				<tr class='blue-grey-text'>
+				<tr class='green-text'>
 				  <th>".$row['quy_mo']."</th>
 				  <td>".$row['ba_thang']."</td>
 				  <td>".$row['ba_thang_web']."</td>
@@ -133,7 +133,7 @@
 
 <!-- Phần cuối -->
 
-<footer class="page-footer blue-grey">
+<footer class="page-footer green">
   <div>
     <div class="row">
       <div class="col l3 s12">

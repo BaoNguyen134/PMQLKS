@@ -13,7 +13,7 @@
 </head>
 <body>
 <!-- menu -->
-<nav class="blue-grey" role="navigation">
+<nav class="green" role="navigation">
   <div class="nav-wrapper" style="margin-left:20px"> <a id="logo-container" href="../index.php" class="brand-logo"><span class="z-depth-5">SmartHotel360</span></a>
     <ul class="right hide-on-med-and-down">
       <li><a href="index.php"><b class="z-depth-3">TRANG CHỦ</b></a></li>
@@ -23,7 +23,7 @@
       <li><a href="dangky.php"><b class="z-depth-3">ĐĂNG KÝ</b></a></li>
       <li><strong class="yellow-text" style="margin-right:10px"><b class="z-depth-3">0946 830 620<i class="material-icons left">call</i></b></strong></li>
     </ul>
-    <ul id="nav-mobile" class="side-nav blue-grey">
+    <ul id="nav-mobile" class="side-nav green">
       <li><a href="index.php" class="white-text"><b class="z-depth-3">TRANG CHỦ</b></a></li>
       <li><a href="smarthotel/banggia.php" class="white-text"><b class="z-depth-3">BẢNG GIÁ</b></a></li>
       <li><a href="gioithieu.php" class="white-text"><b class="z-depth-3">GIỚI THIỆU</b></a></li>
@@ -34,7 +34,7 @@
 </nav>
 <!-- end menu -->
 <div class="parallax-container">
-  <div class="card-panel blue-grey white-text">
+  <div class="card-panel green white-text">
     <div class="card-title">
       <h4>XIN CHÀO!</h4>
     </div>
@@ -49,7 +49,7 @@
   </div>
 </div>
 <!-- Phần cuối -->
-<footer class="page-footer blue-grey">
+<footer class="page-footer green">
   <div>
     <div class="row">
       <div class="col l6 s12">
